@@ -1,0 +1,75 @@
+/*-- scss:defaults --*/
+
+// importing fonts
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+$font-family-sans-serif: 'Oxygen',
+Tahoma,
+sans-serif !default;
+// headings
+$presentation-heading-font: 'Quicksand',
+Tahoma,
+sans-serif,
+!default;
+$presentation-heading-font-weight: 400,
+!default;
+$presentation-heading-color: #212121 !default;
+$presentation-heading-weight: 300 !default;
+$presentation-h1-font-size: 2.8em !default;
+$presentation-h2-font-size: 2.0em !default;
+$presentation-h3-font-size: 1.6em !default;
+//code
+$code-color: #212121 !default;
+$font-family-monospace: 'Fira Mono',
+monospace !default;
+// general  
+$body-bg: #fff;
+$body-color: #212121;
+$link-color: #cb7417;
+$presentation-font-size-root: 24px;
+
+/*-- scss:rules --*/
+
+.reveal .slide-number {
+    font-family: $presentation-heading-font;
+}
+
+#title-slide .institute {
+    font-style: italic;
+    font-size: 80%;
+}
+
+#title-slide .author {
+    color: $body-color;
+}
+
+#title-slide p.author::before {
+    content: "";
+    display: block;
+    border: none;
+    background-color: $body-color;
+    color: $body-color;
+    height: 1px;
+    margin-bottom: 1em;
+}
+
+.reveal .panel-tabset [role=tab] {
+    font-size: 0.8em;
+}
+
+.reveal .footer {
+    color: #707f9e;
+    font-size: 3px;
+}
+
+.center-x {
+    text-align: center;
+}
+
+section.has-dark-background a,
+section.has-dark-background a:hover {
+    color: #fee4ff;
+}
