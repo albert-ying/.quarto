@@ -1,0 +1,22 @@
+---
+title: '****'
+format:
+  docx:
+    reference-doc: manuscript_style.docx
+bibliography: /Users/A.Y/OneDrive - Harvard University/My Library.bib
+csl: /Users/A.Y/Zotero/styles/nature.csl
+filters: 
+ - zotero.lua
+---
+
+Kejun Ying ^1,2,✉️^
+
+```{r, echo=FALSE}
+email = "kying@g.harvard.edu"
+```
+
+^1^ Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA
+
+^2^ T. H. Chan School of Public Health, Harvard University, Boston, MA, USA
+
+^✉^ email: `r email`
