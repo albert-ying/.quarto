@@ -3,10 +3,10 @@ title: '****'
 format:
   docx:
     reference-doc: manuscript_style.docx
-bibliography: /Users/A.Y/OneDrive - Harvard University/My Library.bib
-csl: /Users/A.Y/Zotero/styles/nature.csl
 filters: 
  - zotero.lua
+# bibliography: /Users/A.Y/OneDrive - Harvard University/My Library.bib
+# csl: /Users/A.Y/Zotero/styles/nature.csl
 ---
 
 Kejun Ying ^1,2,✉️^
