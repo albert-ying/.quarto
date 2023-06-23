@@ -1,0 +1,19 @@
+---
+format:
+  revealjs:
+    incremental: true
+    slide-number: true
+    preview-links: auto
+    theme: 'custom.scss'
+    pdf-separate-fragments: true
+    auto-animate: true
+    width: 1050
+    height: 590.625
+    transition: slide
+    background-transition: fade
+    self-contained: true
+filters:
+  - roughnotation
+---
+
+<script src="https://kit.fontawesome.com/8eaab26e80.js" crossorigin="anonymous"></script>
